@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MrFox</string>
+    <string name="contenido">INSTRUCCIONES
+Implementa la interfaz de una aplicación Android siguiendo las siguientes especificaciones
+Requisitos
+• Nombre de la aplicación “MrFox” y tema de nombre “MrFoxTheme” con estilos
+personalizados que han sido extraídos para las diferentes Views (TextView /
+EditText / Button)
+• Utiliza el ic_launcher “fox.png”
+• Imagen del AppBar en el Main forest.png y el FAB fox.png
+• Utiliza un splash screen con una animación para el título de la aplicación.
+• Utilizar la tipografía “AmaticSC-Regular.ttf” residente en el proyecto para el texto
+del Splash.
+• Drawables y MipMaps para imágenes e iconos de todas las densidades de
+dispositivos
+• XML con la paleta de colores, estilos y strings.
+• Con el detalle de la Vista del Main anexa como referencia extraer una paleta de
+colores y dar a las pantallas de Login y Splash un aspecto coherente con ella
+Layouts
+La aplicación contiene tres Activities:
+• Una pantalla MySplash.java
+• Una pantalla de Login sin ActionBar de nombre MyLogin.java
+• Una pantalla Main que es un Scrolling Activity de nombre MyMain.java
+Funcionalidad
+• La pantalla de Splash después de 3seg da paso al Login
+• Pulsando el botón de login (aunque no se introduzcan datos en los EditText
+se entra a la actividad Main)
+• Prueba Unitaria con un TestCase que simplemente pulsa el botón Login.
+Entrega
+• Mostrar al profesor la interfaz funcionando
+• Generar un APK autofirmado con clave de release
+• Subir el ZIP al campus junto al enlace del proyecto en GitHub
+Vista del MAIN
+    Algunas ideas para llegar al Main:
+1. Cambia el tamaño del título con un estilo como el siguiente asociado al
+CollapsingToolbarLayout que tenga la propiedad señalada abajo:
+
+3. Modifica el tamaño y fondo (naranja) del FAB con MrFox
+4. Añade un filtro (scrim.xml en drawable) para que no se pierda el texto blanco sobre la
+nieve utilizando un View dentro del CollapsingToolbarLayout parecido a:
+</string>
+
+</resources>
